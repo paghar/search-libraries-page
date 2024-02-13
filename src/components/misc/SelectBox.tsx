@@ -1,6 +1,5 @@
-import DownArrow from "./misc/svg/DownArrow";
-import {ISelectBox, ISelectBoxItem} from "../utils/interface/misc";
-
+import DownArrow from "./svg/DownArrow";
+import {ISelectBox, ISelectBoxItem} from "@/utils/interface/misc";
 
 const SelectBox = ((props:ISelectBox)=>{  
 

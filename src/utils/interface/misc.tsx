@@ -9,3 +9,13 @@ export interface ISelectBox {
   selectedValue?:string | number,  
   onChange?:(e:any) => void,   
 }
+
+export interface IFooterItem {
+  value:number,
+  text:string,
+}
+
+export interface ISideBarItem {
+  value:number,
+  text:string,
+}

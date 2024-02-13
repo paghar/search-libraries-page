@@ -3,9 +3,11 @@ import {SearchAction} from "@/utils/enum/search";
 import {InitialStateProps} from "@/utils/interface/search";
 
 const SearchContext = createContext<InitialStateProps>({
-  searchText:"npm",
+  searchText:"bower",
   sort:"1",  
-  searchItems:[]    
+  searchItems:[], 
+  totalSearchItem:"0", 
+  pageNumber: 1
 });
 
 const SearchDispatchContext = createContext(undefined as any);
@@ -19,15 +21,14 @@ export function useSearchDispatch() {
 }
 
 export const initialSearch:InitialStateProps = {
-  searchText:"npm",
+  searchText:"bower",
   sort:"1",   
-  searchItems:[]   
+  searchItems:[],
+  totalSearchItem:"0",
+  pageNumber: 1  
 };
 
 export const searchReducer = (search = initialSearch, action:any) => {
-
-  console.log("action",action.type);
-
   switch (action.type) {     
 
     case SearchAction.SetSearchText: 
@@ -46,6 +47,18 @@ export const searchReducer = (search = initialSearch, action:any) => {
       return {
         ...search,
         searchItems: action.payload
+      }; 
+    
+    case SearchAction.setTotalSearchItem: 
+      return {
+        ...search,
+        totalSearchItem: action.payload
+      }; 
+
+    case SearchAction.setPageNumber: 
+      return {
+        ...search,
+        pageNumber: action.payload
       }; 
 
     default: return search;

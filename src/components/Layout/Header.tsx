@@ -1,6 +1,6 @@
-import Search from "../misc/svg/search";
-import Button from "../misc/Button";
-import Textbox from "../misc/Textbox";
+import Search from "@/components/misc/svg/Search";
+import Button from "@/components/misc/Button";
+import Textbox from "@/components/misc/Textbox";
 import {SearchAction} from "@/utils/enum/search";
 
 interface IProps{   
@@ -9,9 +9,8 @@ interface IProps{
   searchClick:()=>void
 }
 
-
 const Header = ({searchText,dispatch,searchClick}:IProps) => {
-    
+
   const borderRadiusStyle = {
     borderBottomLeftRadius: "50% 20%",
     borderBottomRightRadius: "50% 20%",
@@ -42,8 +41,7 @@ const Header = ({searchText,dispatch,searchClick}:IProps) => {
               text="Search"
             >
               <Search className={`mr-2 -ml-1 w-5 h-5`}/>
-            </Button>
-                     
+            </Button>                     
           </form>         
         </div>
       </div>
