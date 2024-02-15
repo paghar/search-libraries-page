@@ -3,40 +3,40 @@
 exports[`Button Component Renders Snapshot Buttons 1`] = `
 <div>
   <div
-    class="flex flex-col items-start m-4 bg-white  rounded-lg shadow-xl p-6 w-1/6"
+    class="flex flex-col items-start m-4 bg-white  rounded-lg shadow-xl p-6  lg:w-1/6 lg:block md:hidden max-sm:hidden"
   >
     <h1
-      class="text-center text-l sm:text-l font-semibold mb-4 text-gray-800"
+      class="text-center text-base sm:text-xs font-semibold mb-4 text-gray-800"
     >
       Home
     </h1>
     <h1
-      class="text-center text-l sm:text-l font-semibold mb-4 text-gray-800"
+      class="text-center text-base sm:text-xs font-semibold mb-4 text-gray-800"
     >
       Creating Packages
     </h1>
     <h1
-      class="text-center text-l sm:text-l font-semibold mb-4 text-gray-800"
+      class="text-center text-base sm:text-xs font-semibold mb-4 text-gray-800"
     >
       API
     </h1>
     <h1
-      class="text-center text-l sm:text-l font-semibold mb-4 text-gray-800"
+      class="text-center text-base sm:text-xs font-semibold mb-4 text-gray-800"
     >
       Configuration
     </h1>
     <h1
-      class="text-center text-l sm:text-l font-semibold mb-4 text-gray-800"
+      class="text-center text-base sm:text-xs font-semibold mb-4 text-gray-800"
     >
       Pluggable Resolvers
     </h1>
     <h1
-      class="text-center text-l sm:text-l font-semibold mb-4 text-gray-800"
+      class="text-center text-base sm:text-xs font-semibold mb-4 text-gray-800"
     >
       Tools
     </h1>
     <h1
-      class="text-center text-l sm:text-l font-semibold mb-4 text-gray-800"
+      class="text-center text-base sm:text-xs font-semibold mb-4 text-gray-800"
     >
       About
     </h1>

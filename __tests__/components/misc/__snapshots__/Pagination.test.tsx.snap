@@ -6,7 +6,7 @@ exports[`Pagination Component Renders Snapshot Buttons 1`] = `
     class="flex justify-center items-center gap-2"
   >
     <li
-      class="p-3 border rounded-md hover:bg-black-600 group transition-all cursor-pointer false"
+      class="border rounded-md hover:bg-black-600 group transition-all cursor-pointer lg:text-lg sm:text-sm  lg:p-2 sm:p-1 false"
       role="prevButton"
     >
       <svg
@@ -21,32 +21,32 @@ exports[`Pagination Component Renders Snapshot Buttons 1`] = `
       </svg>
     </li>
     <li
-      class="text-lg px-4 py-2 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer false"
+      class="lg:text-lg sm:text-sm lg:p-2 sm:p-1 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer false"
     >
       1
     </li>
     <li
-      class="text-lg px-4 py-2 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer false"
+      class="lg:text-lg sm:text-sm lg:p-2 sm:p-1 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer false"
     >
       2
     </li>
     <li
-      class="text-lg px-4 py-2 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer text-gray-500 bg-pink-600"
+      class="lg:text-lg sm:text-sm lg:p-2 sm:p-1 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer text-gray-500 bg-pink-600"
     >
       3
     </li>
     <li
-      class="text-lg px-4 py-2 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer false"
+      class="lg:text-lg sm:text-sm lg:p-2 sm:p-1 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer false"
     >
       4
     </li>
     <li
-      class="text-lg px-4 py-2 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer false"
+      class="lg:text-lg sm:text-sm lg:p-2 sm:p-1 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer false"
     >
       5
     </li>
     <li
-      class="p-3  border rounded-md hover:bg-black-600 group transition-all cursor-pointer false"
+      class="border rounded-md hover:bg-black-600 group transition-all cursor-pointer lg:text-lg sm:text-sm lg:p-2 sm:p-1 false"
       role="nextButton"
     >
       <svg

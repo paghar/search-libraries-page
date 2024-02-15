@@ -20,13 +20,7 @@ const Landing = (()=>{
     const key="f276c74b4b974df2432cede6284ff105";    
     fetchData(searchInfos.searchText,sort(searchInfos.sort),key,dispatch,searchInfos.pageNumber,perPage); 
   },[searchInfos.pageNumber,searchInfos.sort]);
-
-  
-  useEffect(()=>{
-    console.log(searchInfos);
-  },[searchInfos]);
-  
-  
+ 
   return(    
     <div className="flex justify-center bg-gray-100">    
       <div className="lg:w-4/5 md:w-full max-sm:w-full flex justify-center">
