@@ -28,8 +28,8 @@ const Landing = (()=>{
   
   
   return(    
-    <div className="bg-gray-100 flex justify-center p-3">    
-      <div className="w-4/5 flex">
+    <div className="flex justify-center bg-gray-100">    
+      <div className="lg:w-4/5 md:w-full max-sm:w-full flex justify-center">
         <LeftSideBar/>
         <div className="bg-white p-4 rounded-lg shadow-xl py-8 w-5/6 m-4">
           <SearchResult searchInfos={searchInfos} dispatch={dispatch}/>         

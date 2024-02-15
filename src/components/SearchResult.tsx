@@ -10,18 +10,18 @@ interface IProps{
 
 const SearchResult = (({searchInfos,dispatch}:IProps)=>{
 
-  const items = searchInfos?.searchItems?.map((item:any,index)=>{        
+  const items = searchInfos?.searchItems?.map((item:any,index:number)=>{        
     return (
       <div key={index} className="mt-4 flex">
         <div>
           <div className="flex h-8 border-l-4 border-pink-600"/>               
-          <div className="flex h-24 border-l-4 border-gray-400"/>   
+          <div className="flex lg:h-24 sm:h-32 border-l-4 border-gray-400"/>   
         </div>
         <div>
           <div className="flex h-8">
-            <span className="ml-2 text-lg text-pink-600 font-bold">{item.name}</span>
+            <span className="ml-2  text-pink-600 font-bold">{item.name}</span>
           </div>
-          <div className="flex flex-col py-2 h-24">
+          <div className="flex flex-col py-2 lg:h-24 sm:h-32">
             <span className="ml-2 text-gray-700">
               {item.description}
             </span>
@@ -35,9 +35,9 @@ const SearchResult = (({searchInfos,dispatch}:IProps)=>{
   });
   
   return(     
-    <>
-      <div className="flex justify-between">
-        <h6 className="text-l font-bold text-gray-800 tracking-widest uppercase">{searchInfos?.totalSearchItem} packages</h6>
+    <div className="lg:text-base  md:text-sm max-sm:text-xs">
+      <div className="flex justify-between flex-wrap">
+        <div className=" font-bold text-gray-800 tracking-widest uppercase">{searchInfos?.totalSearchItem} packages</div>
         <SelectBox
           id="sort"         
           items={sortItems}
@@ -46,7 +46,7 @@ const SearchResult = (({searchInfos,dispatch}:IProps)=>{
         />      
       </div>       
       <div className="space-y-12 px-2 xl:px-16 mt-12">{items}</div> 
-    </>
+    </div>
   );
 });
     

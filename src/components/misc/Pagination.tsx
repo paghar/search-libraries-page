@@ -21,7 +21,7 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
   const paginationRange = useMemo(() => {
     const siblingCount = 1;
 
-    const totalPageNumbers = siblingCount + 5;
+    const totalPageNumbers = siblingCount + 4;
 
     if (totalPageNumbers >= totalPageCount) {
       return range(1, totalPageCount);
@@ -73,19 +73,18 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
       {/* Left navigation arrow */}
       <li 
         role="prevButton"     
-        className={`p-3 border rounded-md hover:bg-black-600 group transition-all cursor-pointer ${
+        className={`border rounded-md hover:bg-black-600 group transition-all cursor-pointer lg:text-lg sm:text-sm  lg:p-2 sm:p-1 ${
           currentPage === 1 && "border-pink-400 [&>svg]:fill-pink-400"
         }`}
         onClick={onPrevious}
       >
-        <LeftArrow className="group-hover:fill-gray-500"/>
-       
+        <LeftArrow className="group-hover:fill-gray-500"/>       
       </li>
       {paginationRange?.map((pageNumber,index) => {
         // If the pageItem is a DOT, render the DOTS unicode character
         if (pageNumber === DOTS) {
           return (
-            <li key={`item-number${index}`} className=" dots">
+            <li key={`item-number${index}`} className="dots">
               &#8230;
             </li>
           );
@@ -95,7 +94,7 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
         return (
           <li            
             key={pageNumber}
-            className={`text-lg px-4 py-2 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer ${
+            className={`lg:text-lg sm:text-sm lg:p-2 sm:p-1 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer ${
               pageNumber === currentPage && "text-gray-500 bg-pink-600"
             }`}
             onClick={() => onClick(+pageNumber)}
@@ -107,7 +106,7 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
       {/*  Right Navigation arrow */}
       <li    
         role="nextButton"      
-        className={`p-3  border rounded-md hover:bg-black-600 group transition-all cursor-pointer ${
+        className={`border rounded-md hover:bg-black-600 group transition-all cursor-pointer lg:text-lg sm:text-sm lg:p-2 sm:p-1 ${
           currentPage === totalPageCount && "border-pink-400 [&>svg]:fill-pink-400"
         }`}
         onClick={onNext}

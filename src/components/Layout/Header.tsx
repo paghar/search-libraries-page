@@ -17,12 +17,12 @@ const Header = ({searchText,dispatch,searchClick}:IProps) => {
   };
 
   return(    
-    <div className="overflow-hidden relative flex items-center min-h-32">  
+    <div className="overflow-hidden relative flex items-center min-h-32 w-full">  
       <div style={borderRadiusStyle} className="absolute bg-pink-700 w-full h-1/2 z-0 top-0"/>
       <div className="absolute inset-x-auto w-full z-10">
-        <div className="w-2/3 mx-auto shadow-md rounded-md p-4 bg-white">           
-          <form className="flex items-center"> 
-            <div className="relative w-full">                
+        <div className="lg:w-2/5 md:w-2/5 max-sm:w-full mx-auto shadow-md rounded-md p-4 bg-white">           
+          <form className="flex items-center justify-evenly lg:flex-nowrap md:flex-wrap max-sm:flex-wrap "> 
+            <div className="relative lg:w-5/6 md:w-full md:mb-2 max-sm:w-full max-sm:mb-2">                
               <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                 <Search className={`"w-5 h-5 text-gray-500 dark:text-gray-400`}/>            
               </div>
@@ -39,6 +39,7 @@ const Header = ({searchText,dispatch,searchClick}:IProps) => {
               type="button"             
               onClick={searchClick}
               text="Search"
+              className="w-28 "
             >
               <Search className={`mr-2 -ml-1 w-5 h-5`}/>
             </Button>                     
