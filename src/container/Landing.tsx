@@ -7,18 +7,17 @@ import {sort} from "@/hooks/sort";
 import Pagination from "@/components/misc/Pagination";
 import LeftSideBar from "@/components/LeftSideBar";
 import {SearchAction} from "@/utils/enum/search";
+import {perPage} from "@/utils/constants/layout";
 
 
 const Landing = (()=>{
   const dispatch = useSearchDispatch();  
   const searchInfos:InitialStateProps = useSearch();
 
-  const perPage = 5;
   const total = searchInfos.totalSearchItem;
 
-  useEffect(()=>{
-    const key="f276c74b4b974df2432cede6284ff105";    
-    fetchData(searchInfos.searchText,sort(searchInfos.sort),key,dispatch,searchInfos.pageNumber,perPage); 
+  useEffect(()=>{      
+    fetchData(searchInfos.searchText,sort(searchInfos.sort),dispatch,searchInfos.pageNumber,perPage); 
   },[searchInfos.pageNumber,searchInfos.sort]);
  
   return(    

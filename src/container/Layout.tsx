@@ -4,18 +4,16 @@ import {sort} from "@/hooks/sort";
 import {fetchData} from "@/hooks/useSearch";
 import {SearchAction} from "@/utils/enum/search";
 import {InitialStateProps} from "@/utils/interface/search";
+import {perPage} from "@/utils/constants/layout";
 
 const LayoutContainer = ({children}: any) => {
 
   const searchInfos:InitialStateProps = useSearch();
   const dispatch = useSearchDispatch();  
 
-  const perPage = 5;
- 
-  const searchClick = () => {
-    const key="f276c74b4b974df2432cede6284ff105"; 
+  const searchClick = () => {    
     dispatch({type: SearchAction.setPageNumber,payload:1});  
-    fetchData(searchInfos.searchText,sort(searchInfos.sort),key,dispatch,1,perPage); 
+    fetchData(searchInfos.searchText,sort(searchInfos.sort),dispatch,1,perPage); 
   };
   
   return (

@@ -3,12 +3,14 @@ import axios from "axios";
 
 export const fetchData = (
   searchText:string,
-  sort:string,
-  key:string,
+  sort:string, 
   dispatch:any,
   page:number,
   perPage:number
 )=>{ 
+
+  const key ="f276c74b4b974df2432cede6284ff105";
+    
   axios
     .get(`https://libraries.io/api/search?q=${searchText}&sort=${sort}&api_key=${key}&page=${page}&per_page=${perPage}`)
     .then(response => {         
