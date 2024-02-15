@@ -71,7 +71,8 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
   return (
     <ul className="flex justify-center items-center gap-2">
       {/* Left navigation arrow */}
-      <li
+      <li 
+        role="prevButton"     
         className={`p-3 border rounded-md hover:bg-black-600 group transition-all cursor-pointer ${
           currentPage === 1 && "border-pink-400 [&>svg]:fill-pink-400"
         }`}
@@ -92,7 +93,7 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
 
         // Render our Page Pills
         return (
-          <li
+          <li            
             key={pageNumber}
             className={`text-lg px-4 py-2 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer ${
               pageNumber === currentPage && "text-gray-500 bg-pink-600"
@@ -104,7 +105,8 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
         );
       })}
       {/*  Right Navigation arrow */}
-      <li
+      <li    
+        role="nextButton"      
         className={`p-3  border rounded-md hover:bg-black-600 group transition-all cursor-pointer ${
           currentPage === totalPageCount && "border-pink-400 [&>svg]:fill-pink-400"
         }`}

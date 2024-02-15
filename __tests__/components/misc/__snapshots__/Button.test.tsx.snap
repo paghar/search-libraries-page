@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Renders Snapshot Buttons 1`] = `
+<div>
+  <button
+    class="   inline-flex items-center    py-2.5 px-3 ml-2 text-sm    font-medium text-white   bg-pink-700 rounded-lg border border-pink-700   hover:bg-pink-800 focus:ring-4    focus:outline-none focus:ring-pink-300   dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800   "
+    id="search"
+    type="button"
+  >
+    <svg
+      class="mr-2 -ml-1 w-5 h-5"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+    Search
+  </button>
+</div>
+`;

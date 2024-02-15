@@ -6,6 +6,7 @@ interface IProps{
 const Facebook = ({className}: IProps) => {
   return(
     <svg 
+      data-testid="facebook-icon"
       className={className}
       fill="currentColor" 
       strokeLinecap="round" 

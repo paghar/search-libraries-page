@@ -6,6 +6,7 @@ interface IProps{
 const Twitter = ({className}: IProps) => {
   return(
     <svg 
+      data-testid="twitter-icon"
       className={className}
       fill="currentColor" 
       strokeLinecap="round" 

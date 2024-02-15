@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Renders Snapshot Buttons 1`] = `
+<div>
+  <div
+    class="flex justify-between"
+  >
+    <h6
+      class="text-l font-bold text-gray-800 tracking-widest uppercase"
+    >
+      3
+       packages
+    </h6>
+    <div>
+      <div
+        class="relative inline-flex self-center"
+      >
+        <svg
+          class="text-white bg-pink-700 absolute top-0 right-0 m-2 pointer-events-none p-2 rounded"
+          height="25px"
+          version="1.1"
+          viewBox="0 0 38 22"
+          width="25px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+            id="ZahnhelferDE—Design"
+            stroke="none"
+            stroke-width="1"
+          >
+            <g
+              fill="#ffffff"
+              fill-rule="nonzero"
+              id="ZahnhelferDE–Icon&Asset-Download"
+              transform="translate(-539.000000, -199.000000)"
+            >
+              <g
+                id="Icon-/-ArrowRight-Copy-2"
+                transform="translate(538.000000, 183.521208)"
+              >
+                <polygon
+                  id="Path-Copy"
+                  points="33 5.38477631 33 31.3847763 29 31.3847763 28.999 9.38379168 7 9.38477631 7 5.38477631"
+                  transform="translate(20.000000, 18.384776) rotate(135.000000) translate(-20.000000, -18.384776) "
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+        <select
+          class="text-l font-bold rounded border-2 border-pink-700 text-gray-600 h-10 w-60 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none"
+          id="sort"
+        >
+          <option
+            value="1"
+          >
+            Stars
+          </option>
+          <option
+            value="2"
+          >
+            Ranks
+          </option>
+          <option
+            value="3"
+          >
+            Dependents
+          </option>
+          <option
+            value="4"
+          >
+            Latest Release
+          </option>
+          <option
+            value="5"
+          >
+            Contributions
+          </option>
+          <option
+            value="6"
+          >
+            Newest
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div
+    class="space-y-12 px-2 xl:px-16 mt-12"
+  >
+    <div
+      class="mt-4 flex"
+    >
+      <div>
+        <div
+          class="flex h-8 border-l-4 border-pink-600"
+        />
+        <div
+          class="flex h-24 border-l-4 border-gray-400"
+        />
+      </div>
+      <div>
+        <div
+          class="flex h-8"
+        >
+          <span
+            class="ml-2 text-lg text-pink-600 font-bold"
+          >
+            Item 1
+          </span>
+        </div>
+        <div
+          class="flex flex-col py-2 h-24"
+        >
+          <span
+            class="ml-2 text-gray-700"
+          >
+            Description 1
+          </span>
+          <span
+            class="ml-2 text-gray-400"
+          >
+            stars:
+            10
+            , rank:
+            1
+            , latest_release_published_at:
+            2022-01-01
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-4 flex"
+    >
+      <div>
+        <div
+          class="flex h-8 border-l-4 border-pink-600"
+        />
+        <div
+          class="flex h-24 border-l-4 border-gray-400"
+        />
+      </div>
+      <div>
+        <div
+          class="flex h-8"
+        >
+          <span
+            class="ml-2 text-lg text-pink-600 font-bold"
+          >
+            Item 2
+          </span>
+        </div>
+        <div
+          class="flex flex-col py-2 h-24"
+        >
+          <span
+            class="ml-2 text-gray-700"
+          >
+            Description 2
+          </span>
+          <span
+            class="ml-2 text-gray-400"
+          >
+            stars:
+            20
+            , rank:
+            2
+            , latest_release_published_at:
+            2022-01-02
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-4 flex"
+    >
+      <div>
+        <div
+          class="flex h-8 border-l-4 border-pink-600"
+        />
+        <div
+          class="flex h-24 border-l-4 border-gray-400"
+        />
+      </div>
+      <div>
+        <div
+          class="flex h-8"
+        >
+          <span
+            class="ml-2 text-lg text-pink-600 font-bold"
+          >
+            Item 3
+          </span>
+        </div>
+        <div
+          class="flex flex-col py-2 h-24"
+        >
+          <span
+            class="ml-2 text-gray-700"
+          >
+            Description 3
+          </span>
+          <span
+            class="ml-2 text-gray-400"
+          >
+            stars:
+            30
+            , rank:
+            3
+            , latest_release_published_at:
+            2022-01-03
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

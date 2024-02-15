@@ -2,7 +2,7 @@
 export interface InitialStateProps {
   searchText: string;
   sort:string;
-  searchItems:[];
+  searchItems:any;
   totalSearchItem:string;
   pageNumber:number;
 }

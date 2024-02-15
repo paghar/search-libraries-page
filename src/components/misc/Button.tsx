@@ -4,7 +4,7 @@ interface IBtnProps{
   className?:string,
   onClick:(event: any)=>void,
   children?: React.ReactNode,
-  text:string 
+  text?:string 
 }
   
 const Button = (props:IBtnProps) => {

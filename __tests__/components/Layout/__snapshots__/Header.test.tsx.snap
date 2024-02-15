@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component Renders Snapshot Header 1`] = `
+<div>
+  <div
+    class="overflow-hidden relative flex items-center min-h-32"
+  >
+    <div
+      class="absolute bg-pink-700 w-full h-1/2 z-0 top-0"
+      style="border-bottom-left-radius: 50% 20%; border-bottom-right-radius: 50% 20%;"
+    />
+    <div
+      class="absolute inset-x-auto w-full z-10"
+    >
+      <div
+        class="w-2/3 mx-auto shadow-md rounded-md p-4 bg-white"
+      >
+        <form
+          class="flex items-center"
+        >
+          <div
+            class="relative w-full"
+          >
+            <div
+              class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"
+            >
+              <svg
+                class=""w-5 h-5 text-gray-500 dark:text-gray-400"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <input
+              class="   bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg   focus:ring-pink-500 focus:border-pink-500 block w-full pl-10 p-2.5    dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400    dark:text-white dark:focus:ring-pink-500 dark:focus:border-pink-500   "
+              id="search"
+              placeholder="Search ..."
+              type="text"
+              value="Test search"
+            />
+          </div>
+          <button
+            class="   inline-flex items-center    py-2.5 px-3 ml-2 text-sm    font-medium text-white   bg-pink-700 rounded-lg border border-pink-700   hover:bg-pink-800 focus:ring-4    focus:outline-none focus:ring-pink-300   dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800   "
+            id="search"
+            type="button"
+          >
+            <svg
+              class="mr-2 -ml-1 w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

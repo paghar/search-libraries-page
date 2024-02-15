@@ -5,7 +5,7 @@ interface IProps{
   
 const GitHub = ({className}: IProps) => {
   return(
-    <svg className={className} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+    <svg data-testid="github-icon" className={className} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
       <path 
         fillRule="evenodd" 
         // eslint-disable-next-line max-len

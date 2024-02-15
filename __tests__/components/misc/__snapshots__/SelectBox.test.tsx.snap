@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Renders Snapshot Buttons 1`] = `
+<div>
+  <div>
+    <div
+      class="relative inline-flex self-center"
+    >
+      <svg
+        class="text-white bg-pink-700 absolute top-0 right-0 m-2 pointer-events-none p-2 rounded"
+        height="25px"
+        version="1.1"
+        viewBox="0 0 38 22"
+        width="25px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          id="ZahnhelferDE—Design"
+          stroke="none"
+          stroke-width="1"
+        >
+          <g
+            fill="#ffffff"
+            fill-rule="nonzero"
+            id="ZahnhelferDE–Icon&Asset-Download"
+            transform="translate(-539.000000, -199.000000)"
+          >
+            <g
+              id="Icon-/-ArrowRight-Copy-2"
+              transform="translate(538.000000, 183.521208)"
+            >
+              <polygon
+                id="Path-Copy"
+                points="33 5.38477631 33 31.3847763 29 31.3847763 28.999 9.38379168 7 9.38477631 7 5.38477631"
+                transform="translate(20.000000, 18.384776) rotate(135.000000) translate(-20.000000, -18.384776) "
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+      <select
+        class="text-l font-bold rounded border-2 border-pink-700 text-gray-600 h-10 w-60 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none"
+        id="test-select"
+      >
+        <option
+          value="1"
+        >
+          Option 1
+        </option>
+        <option
+          value="2"
+        >
+          Option 2
+        </option>
+        <option
+          value="3"
+        >
+          Option 3
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;
