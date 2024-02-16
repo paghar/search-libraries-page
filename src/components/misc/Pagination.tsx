@@ -69,11 +69,11 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
     return null;
   }
   return (
-    <ul className="flex justify-center items-center gap-2">
+    <ul className="flex justify-center flex-wrap items-center gap-2">
       {/* Left navigation arrow */}
       <li 
         role="prevButton"     
-        className={`border rounded-md hover:bg-black-600 group transition-all cursor-pointer lg:text-lg sm:text-sm  lg:p-2 sm:p-1 ${
+        className={`border rounded-md hover:bg-black-600 group transition-all cursor-pointer 2xl:text-lg xl:text-lg lg:text-lg sm:text-sm 2xl:p-2 xl:p-2 lg:p-2 md:p-2 sm:p-1 ${
           currentPage === 1 && "border-pink-400 [&>svg]:fill-pink-400"
         }`}
         onClick={onPrevious}
@@ -94,7 +94,7 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
         return (
           <li            
             key={pageNumber}
-            className={`lg:text-lg sm:text-sm lg:p-2 sm:p-1 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer ${
+            className={`2xl:text-lg xl:text-lg lg:text-lg sm:text-sm 2xl:p-2 xl:p-2 lg:p-2 md:p-2 sm:p-1 border rounded-md hover:bg-black-600 hover:text-gray-500 transition-all cursor-pointer ${
               pageNumber === currentPage && "text-gray-500 bg-pink-600"
             }`}
             onClick={() => onClick(+pageNumber)}
@@ -106,7 +106,7 @@ const Pagination: React.FC<Props> = ({currentPage, totalCount, perPage, onClick}
       {/*  Right Navigation arrow */}
       <li    
         role="nextButton"      
-        className={`border rounded-md hover:bg-black-600 group transition-all cursor-pointer lg:text-lg sm:text-sm lg:p-2 sm:p-1 ${
+        className={`border rounded-md hover:bg-black-600 group transition-all cursor-pointer 2xl:text-lg xl:text-lg lg:text-lg sm:text-sm 2xl:p-2 xl:p-2 lg:p-2 md:p-2 sm:p-1 ${
           currentPage === totalPageCount && "border-pink-400 [&>svg]:fill-pink-400"
         }`}
         onClick={onNext}

@@ -15,14 +15,14 @@ const SearchResult = (({searchInfos,dispatch}:IProps)=>{
       <div key={index} className="mt-4 flex">
         <div>
           <div className="flex h-8 border-l-4 border-pink-600"/>               
-          <div className="flex lg:h-24 sm:h-32 border-l-4 border-gray-400"/>   
+          <div className="flex h-24 border-l-4 border-gray-400"/>   
         </div>
         <div>
           <div className="flex h-8">
-            <span className="ml-2  text-pink-600 font-bold">{item.name}</span>
+            <span className="ml-2 text-pink-600 font-bold">{item.name}</span>
           </div>
-          <div className="flex flex-col py-2 lg:h-24 sm:h-32">
-            <span className="ml-2 text-gray-700">
+          <div className="flex flex-col py-2 h-24">
+            <span className="ml-2 text-gray-700 overflow-y-auto h:12">
               {item.description}
             </span>
             <span className="ml-2 text-gray-400">
@@ -35,7 +35,7 @@ const SearchResult = (({searchInfos,dispatch}:IProps)=>{
   });
   
   return(     
-    <div className="lg:text-base  md:text-sm max-sm:text-xs">
+    <div className="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-xs">
       <div className="flex justify-between flex-wrap">
         <div className=" font-bold text-gray-800 tracking-widest uppercase">{searchInfos?.totalSearchItem} packages</div>
         <SelectBox
@@ -45,7 +45,7 @@ const SearchResult = (({searchInfos,dispatch}:IProps)=>{
           onChange={(e) => dispatch({type: SearchAction.SetSortType,payload:e.target.value})} 
         />      
       </div>       
-      <div className="space-y-12 px-2 xl:px-16 mt-12">{items}</div> 
+      <div className="space-y-12 px-2 mt-12">{items}</div> 
     </div>
   );
 });

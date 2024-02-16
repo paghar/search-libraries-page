@@ -3,7 +3,7 @@
 exports[`Button Component Renders Snapshot Buttons 1`] = `
 <div>
   <div
-    class="lg:text-base  md:text-sm max-sm:text-xs"
+    class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-xs"
   >
     <div
       class="flex justify-between flex-wrap"
@@ -91,7 +91,7 @@ exports[`Button Component Renders Snapshot Buttons 1`] = `
       </div>
     </div>
     <div
-      class="space-y-12 px-2 xl:px-16 mt-12"
+      class="space-y-12 px-2 mt-12"
     >
       <div
         class="mt-4 flex"
@@ -101,7 +101,7 @@ exports[`Button Component Renders Snapshot Buttons 1`] = `
             class="flex h-8 border-l-4 border-pink-600"
           />
           <div
-            class="flex lg:h-24 sm:h-32 border-l-4 border-gray-400"
+            class="flex h-24 border-l-4 border-gray-400"
           />
         </div>
         <div>
@@ -109,16 +109,16 @@ exports[`Button Component Renders Snapshot Buttons 1`] = `
             class="flex h-8"
           >
             <span
-              class="ml-2  text-pink-600 font-bold"
+              class="ml-2 text-pink-600 font-bold"
             >
               Item 1
             </span>
           </div>
           <div
-            class="flex flex-col py-2 lg:h-24 sm:h-32"
+            class="flex flex-col py-2 h-24"
           >
             <span
-              class="ml-2 text-gray-700"
+              class="ml-2 text-gray-700 overflow-y-auto h:12"
             >
               Description 1
             </span>
@@ -143,7 +143,7 @@ exports[`Button Component Renders Snapshot Buttons 1`] = `
             class="flex h-8 border-l-4 border-pink-600"
           />
           <div
-            class="flex lg:h-24 sm:h-32 border-l-4 border-gray-400"
+            class="flex h-24 border-l-4 border-gray-400"
           />
         </div>
         <div>
@@ -151,16 +151,16 @@ exports[`Button Component Renders Snapshot Buttons 1`] = `
             class="flex h-8"
           >
             <span
-              class="ml-2  text-pink-600 font-bold"
+              class="ml-2 text-pink-600 font-bold"
             >
               Item 2
             </span>
           </div>
           <div
-            class="flex flex-col py-2 lg:h-24 sm:h-32"
+            class="flex flex-col py-2 h-24"
           >
             <span
-              class="ml-2 text-gray-700"
+              class="ml-2 text-gray-700 overflow-y-auto h:12"
             >
               Description 2
             </span>
@@ -185,7 +185,7 @@ exports[`Button Component Renders Snapshot Buttons 1`] = `
             class="flex h-8 border-l-4 border-pink-600"
           />
           <div
-            class="flex lg:h-24 sm:h-32 border-l-4 border-gray-400"
+            class="flex h-24 border-l-4 border-gray-400"
           />
         </div>
         <div>
@@ -193,16 +193,16 @@ exports[`Button Component Renders Snapshot Buttons 1`] = `
             class="flex h-8"
           >
             <span
-              class="ml-2  text-pink-600 font-bold"
+              class="ml-2 text-pink-600 font-bold"
             >
               Item 3
             </span>
           </div>
           <div
-            class="flex flex-col py-2 lg:h-24 sm:h-32"
+            class="flex flex-col py-2 h-24"
           >
             <span
-              class="ml-2 text-gray-700"
+              class="ml-2 text-gray-700 overflow-y-auto h:12"
             >
               Description 3
             </span>

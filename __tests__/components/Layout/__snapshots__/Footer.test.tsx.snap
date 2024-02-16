@@ -9,7 +9,7 @@ exports[`Footer Component Renders Snapshot Footer 1`] = `
       class="mx-auto max-w-7xl flex flex-col items-center text-white"
     >
       <div
-        class="w-full flex flex-col md:flex-row flex-wrap justify-between items-center"
+        class="w-full flex flex-col flex-wrap justify-between items-center"
       >
         <div
           class="py-4 px-2 flex"

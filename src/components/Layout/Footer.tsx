@@ -21,7 +21,7 @@ const Footer = () => {
   return(
     <footer className="w-full py-6 px-4 bg-pink-700"> 
       <div className="mx-auto max-w-7xl flex flex-col items-center text-white">
-        <div className="w-full flex flex-col md:flex-row flex-wrap justify-between items-center">
+        <div className="w-full flex flex-col flex-wrap justify-between items-center">
           {/* :SOCIALMEDIA */}
           <div className="py-4 px-2 flex">
             <Facebook className="w-6 h-6 mr-1"/>

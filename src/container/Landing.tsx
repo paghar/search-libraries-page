@@ -22,7 +22,7 @@ const Landing = (()=>{
  
   return(    
     <div className="flex justify-center bg-gray-100">    
-      <div className="lg:w-4/5 md:w-full max-sm:w-full flex justify-center">
+      <div className="2xl:w-4/5 xl:w-4/5 lg:w-full md:w-full sm:w-full flex justify-center">
         <LeftSideBar/>
         <div className="bg-white p-4 rounded-lg shadow-xl py-8 w-5/6 m-4">
           <SearchResult searchInfos={searchInfos} dispatch={dispatch}/>         

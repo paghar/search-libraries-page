@@ -13,7 +13,9 @@ const LeftSideBar = ()=>{
   });
 
   return(     
-    <div className="flex flex-col items-start m-4 bg-white  rounded-lg shadow-xl p-6  lg:w-1/6 lg:block md:hidden max-sm:hidden">       
+    <div className="flex flex-col items-start m-4 bg-white rounded-lg shadow-xl p-6 
+                    2xl:w-1/5 xl:w-2/6 lg:w-2/6 md:hidden sm:hidden"
+    >       
       {items}
     </div>
   );

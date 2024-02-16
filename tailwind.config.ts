@@ -15,13 +15,25 @@ module.exports = {
       orange: "0px 20px 20px -15px rgba(245,56,56,0.81) ",
       "orange-md": "0px 20px 40px -15px rgba(245,56,56,0.81) ",
       none: "none",
+    }, 
+
+    screens: {
+      "sm": {"min": "150px", "max": "555px"},
+      // => @media (min-width: 350px and max-width: 556px) { ... }
+  
+      "md": {"min": "556px", "max": "1023px"},
+      // => @media (min-width: 556px and max-width: 1023px) { ... }
+  
+      "lg": {"min": "1024px", "max": "1279px"},
+      // => @media (min-width: 1024px and max-width: 1279px) { ... }
+  
+      "xl": {"min": "1280px", "max": "1535px"},
+      // => @media (min-width: 1280px and max-width: 1535px) { ... }
+  
+      "2xl": {"min": "1536px"},
+      // => @media (min-width: 1536px) { ... }
     },
-    
-    extend: {
-      screens: {
-        "xs": "480px",
-      },
-    },
+  
   },
   variants: {
     extend: {
