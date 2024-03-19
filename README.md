@@ -1,5 +1,3 @@
-![Serach_Page](https://github.com/paghar/search-libraries-page/assets/66066475/b22fc20c-a0d3-44a8-937e-9603289a054d)
-
 This sample search page is a demonstration of modern web development techniques utilizing popular technologies such as React, Next.js, Tailwind CSS, and the Libraries.io API. Designed with simplicity and efficiency in mind, this project showcases how to build a responsive and user-friendly search interface for discovering software libraries.
 ## Getting Started
 
@@ -36,3 +34,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 **Clean and Modular Code:** The codebase follows best practices for React and Next.js development, emphasizing modularity, readability, and maintainability. Components are organized logically, making it easy to extend or modify the application as needed.
 
 Overall, this sample search page serves as a testament to the power and flexibility of modern web development technologies, showcasing how to create intuitive and feature-rich user interfaces while leveraging the capabilities of popular libraries and APIs. Whether as a learning resource or a foundation for building production-ready applications, this project exemplifies the art of crafting elegant web experiences.
+
+![Serach_Page](https://github.com/paghar/search-libraries-page/assets/66066475/b22fc20c-a0d3-44a8-937e-9603289a054d)
